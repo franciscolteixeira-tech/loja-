@@ -1,5 +1,9 @@
-body{
-    background-color: #1a1a1a !important;
+*{
+    background-color: #1a1a1a;
+    padding: 0;
+    margin: 0;
+}
+a{
 
 }
 
@@ -7,3 +11,15 @@ body{
     height: 200;
     width: 1000;
 }
+
+li a {
+    text-decoration: none ;
+   color: #ffffff;
+   font-size:  20px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+
