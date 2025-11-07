@@ -16,10 +16,24 @@ li a {
     text-decoration: none ;
    color: #ffffff;
    font-size:  20px;
+   padding: 20px;
+
 }
+li{
+  list-style: none; /*remove os pontos das lista*/
+
+
+}
+
 #logo{
     height: 100px;
     width: 100px;
+}
+ul{
+
+    display: flex;/*ativa a propiedade  de alinhamento*/
+    flex-direction: row;/*colocar os elementos na orisontal*/
+
 }
 
 
