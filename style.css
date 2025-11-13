@@ -3,37 +3,47 @@
     padding: 0;
     margin: 0;
 }
-a{
 
+.banner{
+    height: 450px;
+    width: 850px;
+    background-image: url("./assents/banner.png");/*Ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover; /*ajeita a imagem*/
 }
 
-#banner{
-    height: 200;
-    width: 1000;
+li a{
+ text-decoration: none;
+ color: #ffffff;
+ font-size: 20px;
+ padding: 20px;
 }
 
-li a {
-    text-decoration: none ;
-   color: #ffffff;
-   font-size:  20px;
-   padding: 20px;
-
+ul{
+display: flex; /*Ativa a propriedade de alinhamento*/
+flex-direction: row; /*Coloca os elementos na horizontal*/
 }
+
 li{
-  list-style: none; /*remove os pontos das lista*/
+list-style: none; /*Remove os pontos das lista*/
+}
 
-
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
 }
 
 #logo{
     height: 100px;
     width: 100px;
 }
-ul{
 
-    display: flex;/*ativa a propiedade  de alinhamento*/
-    flex-direction: row;/*colocar os elementos na orisontal*/
+.bi{
+  font-size: 30px;
+  color: #4c544c;
+  
+
 
 }
-
-
