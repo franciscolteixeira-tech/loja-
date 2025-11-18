@@ -72,13 +72,71 @@ color: #4c544c;
     color: #ffffff;
     font-size: 19px;
     background-color: #333333;
+    margin: 20px;
  }
 .banner-estrutura{
    width: 220px;
-
+   margin: 30px;
 }
 .section-banner{
     display: flex;
     justify-content: center;
     
 }
+
+.titulo{
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 35px;
+}
+
+.estrutura-titulo{
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+
+}
+ 
+.produtos{
+   height:500px;
+   width: 300px;
+}
+.valor{  
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-texto{
+  display: flex;
+  justify-content: center;
+
+}
+
+.card{
+  width: 250px;
+  height: 430px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+}
+
+.vermelho{
+   background-color: red;
+
+}
+
+.azul{
+  background-color: blue;
+
+}
+
+.amarelo{
+   background-color: yellow;
+
+}
+
+
+
